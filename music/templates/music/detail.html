@@ -1,0 +1,13 @@
+{% extends 'music/base.html' %}
+{% block title %}
+Album details
+{% endblock %}
+
+{% block body %}
+{% load static %}
+
+<h1>{{album.title}}</h1>
+<h2>{{album.artist}}</h2>
+
+
+{% endblock %}
